@@ -1,0 +1,75 @@
+/* ensure all pages have Bootstrap CSS */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+main {
+  scroll-snap-type: y mandatory;
+  position: relative;
+  max-height: 100vh;
+  overflow-y: auto;
+
+}
+
+.nav-title{
+margin: auto;
+font-size: 64px;
+}
+
+.nav-link{
+ color: black;
+ outline: auto;
+ outline-color: black;
+}
+
+.card-title {
+  color: black;
+  text-decoration-line: underline;
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+
+  scroll-snap-align: start;
+}
+
+h2,
+h3,
+a {
+  font: 400 3rem/1.5 sans-serif;
+  color: white;
+  transform-origin: center;
+  text-decoration: none;
+}
+
+h3 {
+  font: 400 2em/1.5 sans-serif;
+}
+
+.tabs-container {
+  width: 64rem;
+  height: 32rem;
+  margin: 0 auto;
+}
+
+.tab-card{
+  outline-style: solid;
+  display: flex;
+}
+
+.tab-image{
+  width: 30vw;
+  margin-left: auto;
+}
+
+.tab-link{
+  color: black;
+  font-size: 16px;
+}
+
+
+
+

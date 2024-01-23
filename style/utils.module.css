@@ -1,0 +1,31 @@
+.experienceDisplay {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: space-between;
+  }
+
+  .experienceDisplay {
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: space-between;
+  }
+  
+.sideBar {
+    line-height: 1;
+    min-width: 20vw;
+    margin-right: 2rem;   
+    text-align: center;
+
+  }
+
+  .noUnderline:hover {
+    text-decoration: none;
+  }
+  
+  .lightText {
+    color: #666;
+  }
+  
