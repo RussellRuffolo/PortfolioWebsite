@@ -6,12 +6,7 @@
     justify-content: space-between;
   }
 
-  .experienceDisplay {
-    display: flex;
-    flex-direction: row;
-    align-items: top;
-    justify-content: space-between;
-  }
+
   
 .sideBar {
     line-height: 1;
@@ -19,6 +14,31 @@
     margin-right: 2rem;   
     text-align: center;
 
+  }
+
+  .project {
+    margin: 0 0 0.7rem;
+  }
+
+  .blog {
+    padding: 10rem 1rem 5rem 1rem;
+    line-height: 2;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+.projectList {
+  margin-top: -1rem;
+  line-height: 1rem;
+}
+
+  .projectBox {
+    padding-top: 2rem;
+  align-items: center;
   }
 
   .noUnderline:hover {

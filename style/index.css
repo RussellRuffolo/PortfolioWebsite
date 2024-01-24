@@ -1,28 +1,67 @@
 /* ensure all pages have Bootstrap CSS */
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
-main {
+/* main {
   scroll-snap-type: y mandatory;
   position: relative;
   max-height: 100vh;
+  
   overflow-y: auto;
 
+} */
+
+html {
+  scroll-snap-type: y mandatory;
+}
+
+section {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+
+  height: 100vh;
+  width: 100%;
 }
 
 .nav-title{
 margin: auto;
-font-size: 64px;
+height: 10vh;
+font-size: xx-large;
+}
+
+.nav-item{
+
+  height: 20vh;
+  width: 20vw;
+
+}
+
+.nav-item:hover{
+  transform: scale(1.1);
+}
+
+.exp-image{
+  height: 20vh;
+  width: 20vw;
+  object-fit: contain;
+}
+
+.project{
+  color: black;
 }
 
 .nav-link{
  color: black;
- outline: auto;
- outline-color: black;
+
 }
 
 .card-title {
   color: black;
   text-decoration-line: underline;
+}
+
+.experience-header{
+  display: flex;
+  justify-content: space-between;
 }
 .container {
   height: 100vh;
@@ -33,26 +72,30 @@ font-size: 64px;
   justify-content: center;
   align-items: center;
 
-  scroll-snap-align: start;
+
 }
 
-h2,
-h3,
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 a {
-  font: 400 3rem/1.5 sans-serif;
-  color: white;
-  transform-origin: center;
+  color: #0070f3;
   text-decoration: none;
 }
+
+
+
 
 h3 {
   font: 400 2em/1.5 sans-serif;
 }
 
 .tabs-container {
-  width: 64rem;
-  height: 32rem;
-  margin: 0 auto;
+
+  margin: auto;
 }
 
 .tab-card{
