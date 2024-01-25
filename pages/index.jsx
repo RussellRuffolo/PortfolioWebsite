@@ -29,9 +29,9 @@ const IndexPage = () => {
   const toggleFeaturedExperience = (idx) => {
     setCurrBlockIdx(idx);
     gsap.from(featuredExperience.current, {
-      x: 100,
+      x: 50,
       ease: "elastic",
-      duration: 2,
+      duration: 2.4,
     });
   };
 
@@ -62,6 +62,9 @@ const IndexPage = () => {
                 <a href="/portfolio/crashblox">Crashblox</a>
               </li>
             </ul>
+            <a href="/RussellRuffoloResume.pdf" download>
+              <button className={utilStyles.downloadButton}>Download Resumé</button>
+            </a>
           </div>
         </Section>
         <Section title="Professional Experience" className="section-3">

@@ -18,6 +18,16 @@
 
   .project {
     margin: 0 0 0.7rem;
+    text-align: center;
+  }
+
+  .downloadButton{
+    background-color: white;
+    border-radius: 12px;
+  }
+
+  .downloadButton:hover{
+scale: 1.1;
   }
 
   .blog {
