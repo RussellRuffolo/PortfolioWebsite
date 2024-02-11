@@ -36,6 +36,9 @@ export default function Layout({ children, home, title }) {
                         <Link target='blank' href="https://crashtodon.net/@crash"> 
                             <Image alt="Mastodon" src="/mastodon.svg" height={40} width={40}/> 
                         </Link>
+                        <Link target='blank' href="https://www.twitch.tv/risky_crash"> 
+                            <Image alt="Twitch" src="/twitch.svg" height={40} width={40}/> 
+                        </Link>
                     </div>
                 </div>
             </div>         
