@@ -7,6 +7,8 @@ import { Container, Row, Col, Navbar, Tabs, Tab } from "react-bootstrap";
 import { gsap } from "gsap";
 import Layout from "../components/layout";
 
+export const revalidate = 0;
+
 const Section = ({ title, children }) => {
   return (
     <section>
@@ -21,6 +23,8 @@ const Section = ({ title, children }) => {
     </section>
   );
 };
+
+
 
 const IndexPage = () => {
   const [currBlockIdx, setCurrBlockIdx] = useState(0);
