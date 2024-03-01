@@ -42,10 +42,14 @@ const IndexPage = () => {
       <Layout home>
         <Section title="About me" className="section-1">
           <p>
+       
             I am a Software Engineer and Game Developer. I am currently living
-            in Colorado Springs, CO with my wife Maia and our dog Shadow. When
-            I'm not working on a project you can likely find me at the disc golf
-            course.
+            in Colorado Springs, CO with my wife Maia and our dog Shadow.<br /><br />
+
+            I just published my first game on Steam! Check out DISCIN here: <a href="https://store.steampowered.com/app/2816270/DISCIN/">Steam</a> <br /><br />
+
+            Beyond making and playing video games, my current interests are cooking, Japanese language, disc golf, and skateboarding.
+         
           </p>
         </Section>
         <Section title="Portfolio" className="section-2">

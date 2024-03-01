@@ -23,7 +23,7 @@ export default function ProjectPage() {
             </div>
             <h4><a target="_blank" href="https://discinvr.com/">→ Website</a></h4>
             <br/>
-            <p>DISCIN is a virtual reality disc golf game developed with Unity for the Meta Quest. To build a complete VR game from the ground up, I took on many projects. I built/implemented a custom physically simulated disc flight model using existing scientific literature and a differential equation solver library. I also built our UI/UX and gameplay loop. Graphical peformance is an important bottleneck in VR, so I implemented my own foliage shader and billboarding system for our trees. This project has been an amazing learning experience, and I am very excited to finally release DISCIN. It is currently available in Alpha distribution through the Meta Quest App Lab.</p>
+            <p>DISCIN is a virtual reality disc golf game developed with Unity fand OpenXR. To build a complete VR game from the ground up, I took on many projects. I built/implemented a custom physically simulated disc flight model using existing scientific literature and a differential equation solver library. I also built our UI/UX and gameplay loop. Graphical peformance is an important bottleneck in VR, so I implemented my own foliage shader and billboarding system for our trees. This project has been an amazing learning experience, and I am very excited to finally release DISCIN. It is currently available as a Playtest on <a href="https://store.steampowered.com/app/2816270/DISCIN/">Steam</a>.</p>
           </div>
           <div className={utilStyles.center} style={{width: '50%'}}>
                 <Image alt="DISCIN Cover Art" src="/discin.png" width={300} height={200} layout="responsive" objectFit="contain"/> 
